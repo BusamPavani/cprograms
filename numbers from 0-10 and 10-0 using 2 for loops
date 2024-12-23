@@ -1,1 +1,14 @@
-numbers from 0-10 and 10-0 using two for loops
+#include <stdio.h>
+void main() {
+    int n,i;
+    printf("The numbers are\n");
+   for(i=0;i<=10;i++)
+  {
+      printf("%d",i);
+  }
+  for(i=10;i>0;i--)
+  {
+      printf("%d",i);
+  }
+}     
+    
