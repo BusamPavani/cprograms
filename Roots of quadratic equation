@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include<math.h>
+void main() {
+    int a,b,c,d;
+    float r1,r2;
+    printf("enter the value of a,b,c:");
+    scanf("%d%d%d",&a,&b,&c);
+    d=(b*b)-(4*a*c);
+    printf("The value of d is %d",&d);
+    if(d>0)
+   {
+       r1=-b+sqrt(d)/2*a;
+       r2=-b-sqrt(d)/2*a;
+       scanf("%d%d",&r1,&r2);
+       printf("The value of r1 is%d",&r1);
+       printf("The value of r2 is %d",&r2);
+    }
+    else if(d<0)
+    {
+        printf("Roots are imaginary");
+    }
+    else
+    {
+        printf("roots are real and equal ");
+    r1=r2=-b/2*a;
+    printf("The value of r1 andr2 is %f\n,r1");
+}
+}   
