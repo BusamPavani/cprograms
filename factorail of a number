@@ -1,1 +1,13 @@
-factorial of a number 
+#include<stdio.h>
+void main()
+{
+    long int fact=1;
+    int i,n=0;
+    printf("enter the value of n:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        fact=fact*i;
+    }
+    printf("The factorial is %ld",fact);
+}
