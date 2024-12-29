@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+    int i,b,p,sum=1;
+    printf("enter base value:");
+    scanf("%d",&b);
+    printf("enter power value:");
+    scanf("%d",&p);
+    for (i=0;i<p;i++)
+    {
+        sum=sum*b;
+    }
+        printf("Base and power values are %d and %d\n result=%d\n",b,p,sum);
+}
